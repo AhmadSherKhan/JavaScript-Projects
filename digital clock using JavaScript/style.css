@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(../bc.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    font-size: 3rem;
+    color:#000;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+.clock{
+    display: flex;
+}
+.clock .box{
+    margin: .3rem;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.clock .box .text{
+    font-size: 1.5rem;
+    height: 40px;
+    background: darkblue;
+    opacity: .8;
+}
+.clock .box #ampm{
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    background: green;
+    font-size: 1.5rem;
+    bottom: 0;
+}
